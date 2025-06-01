@@ -1,5 +1,3 @@
-# Kingdom-Hearts-Melody-of-Memory-Archipelago-Manual
-
 *Like most, you probably believe that nothing exists outside of this world you play in.*
 
 *And yet, there are countless other worlds.*
