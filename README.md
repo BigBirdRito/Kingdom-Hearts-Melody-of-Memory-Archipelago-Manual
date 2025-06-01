@@ -10,5 +10,5 @@
 
 *If that happens, you must abandon your sync—we have failed.*
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BigBirdRito/Kingdom-Hearts-Melody-of-Memory-Archipelago-Manual/refs/heads/main/Kingdom%20Hearts%20Melody%20of%20Memory%20Logo.png"/>
+  <img src="https://raw.githubusercontent.com/BigBirdRito/Kingdom-Hearts-Melody-of-Memory-Archipelago-Manual/refs/heads/main/Kingdom%20Hearts%20Melody%20of%20Memory%20Logo.png" width="70%" />
 </div>
