@@ -1,0 +1,49 @@
+Goal:
+
+For this game your goal is to collect Stars! The amount required is configurable as a yaml option! While the victory location is named after the ending of World Tour, it's up to you whether you want to play it!
+
+Mechanics:
+
+This manual is intended to be used with the save file provided in the GitHub repo! All 150 songs are unlocked, the Collector's Bonuses are nearly maxed out, and there are plenty of items for you to use so no grinding is needed!
+
+Each song has three locations tied to it! One location for the song, another for an item, and the final for a star! If you don't want songs to be locked, then you can get rid of those items/locations! If you don't want items to be limited, you can get rid of those too! And as mentioned previously the same goes for Stars as well!
+
+If you do keep all three locations, here are some suggestions for how to go about checking them! You could check:
+
+All three at once
+One per time played
+One per Difficulty
+One per Mission (For World Tour songs!)
+One per Style
+
+Once you've received all of a specific item, you may freely use as many extra ones as you'd like for the remainder of your playthrough! Each item has 50 copies of it in the apworld by default! To prevent any confusion when changing yaml options here are the total number of items in each category:
+
+Potion (KH1) - 11
+Potion (Re:CoM) - 2
+Potion (KH2) - 13
+Potion (Days) - 2
+Potion (BBS) - 9
+Potion (Re:coded) - 1
+Potion (KH3D) - 6
+Potion (KH3) - 3
+Potion (Misc.) - 3
+
+Mega-Potion (KH1) - 11
+Mega-Potion (Re:CoM) - 1
+Mega-Potion (KH2) - 14
+Mega-Potion (Days) - 2
+Mega-Potion (BBS) - 8
+Mega-Potion (Re:coded) - 1
+Mega-Potion (KH3D) - 6
+Mega-Potion (AFP) - 1
+Mega-Potion (KH3) - 4
+Mega-Potion (Misc.) - 2
+
+Summoning Star (KH1) - 11
+Summoning Star (Re:CoM) - 2
+Summoning Star (KH2) - 14
+Summoning Star (Days) - 2
+Summoning Star (BBS) - 9
+Summoning Star (KH3D) - 5
+Summoning Star (KH3) - 4
+Summoning Star (Misc.) - 3
