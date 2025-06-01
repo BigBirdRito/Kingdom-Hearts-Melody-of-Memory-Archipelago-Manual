@@ -7,5 +7,5 @@ An Archipelago Manual for Kingdom Hearts: Melody of Memory!
 *However, if you arrive in a world that's neither gomode nor BK'd, but somewhere on the other side, your goal will be far from easy.*
 *If that happens, you must abandon your sync—we have failed.*
 <div align="center">
-  <img src="https://imgur.com/a/ef14W9d"/>
+  <img src="https://imgur.com/a/ef14W9d.png"/>
 </div>
