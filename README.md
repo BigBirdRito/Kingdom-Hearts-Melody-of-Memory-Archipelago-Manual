@@ -1,5 +1,4 @@
 # Kingdom-Hearts-Melody-of-Memory-Archipelago-Manual
-An Archipelago Manual for Kingdom Hearts: Melody of Memory!
 
 *Like most, you probably believe that nothing exists outside of this world you play in.*
 
