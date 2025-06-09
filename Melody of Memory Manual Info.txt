@@ -4,7 +4,7 @@ For this game your goal is to collect Stars! The amount required is configurable
 
 Mechanics:
 
-This manual is intended to be used with the save file provided in the GitHub repo! All 150 songs are unlocked, the Collector's Bonuses are nearly maxed out, and there are plenty of items for you to use so no grinding is needed! If you have your own safe file that you're confident will work feel free to use that instead!
+This manual is intended to be used with the save file provided in the GitHub repo! All 150 songs are unlocked, the Collector's Bonuses are nearly maxed out, and there are plenty of items for you to use so no grinding is needed! If you have your own save file that you're confident will work feel free to use that instead!
 
 Each song has three locations tied to it! One location for the song, another for an item, and the final for a star! If you don't want songs to be locked, then you can get rid of those items/locations! If you don't want items to be limited, you can get rid of those too! And as mentioned previously the same goes for Stars as well!
 
@@ -16,34 +16,155 @@ One per Difficulty
 One per Mission (For World Tour songs!)
 One per Style
 
-Once you've received all of a specific item, you may freely use as many extra ones as you'd like for the remainder of your playthrough! Each item has 50 copies of it in the apworld by default! To prevent any confusion when changing yaml options here are the total number of items in each category:
+Once you've received all of a specific item, you may freely use as many extra ones as you'd like for the remainder of your playthrough! Each item has 50 copies of it in the apworld by default!
+
+Customization:
+
+This manual features yaml options that allow you to customize your expereince! Simply swap the 0 and 50 with each other and you're good to go!
+
+Here are the following categories you can choose to exclude and what items and locations make them up:
+
+Goal
+
+How many stars should be required to unlock the victory location? The range is 0 stars to 150 stars!
+
+Death Link
+
+When you lose a song you send a Death Link! When you recieve a Death Link you'll need to restart your current song from the beginning!
+
+KH1 Songs
+
+33 Songs
+
+KH1 Items
 
 Potion (KH1) - 11
-Potion (Re:CoM) - 2
-Potion (KH2) - 13
-Potion (Days) - 2
-Potion (BBS) - 9
-Potion (Re:coded) - 1
-Potion (KH3D) - 6
-Potion (KH3) - 3
-Potion (Misc.) - 3
-
 Mega-Potion (KH1) - 11
-Mega-Potion (Re:CoM) - 1
-Mega-Potion (KH2) - 14
-Mega-Potion (Days) - 2
-Mega-Potion (BBS) - 8
-Mega-Potion (Re:coded) - 1
-Mega-Potion (KH3D) - 6
-Mega-Potion (AFP) - 1
-Mega-Potion (KH3) - 4
-Mega-Potion (Misc.) - 2
-
 Summoning Star (KH1) - 11
+
+KH1 Missions
+
+Star (KH1) - 33
+
+CoM Songs
+
+5 Songs
+
+CoM Items
+
+Potion (Re:CoM) - 2
+Mega-Potion (Re:CoM) - 1
 Summoning Star (Re:CoM) - 2
+
+CoM Missions
+
+Star (Re:CoM) - 5
+
+KH2 Songs
+
+41 Songs
+
+KH2 Items
+
+Potion (KH2) - 13
+Mega-Potion (KH2) - 14
 Summoning Star (KH2) - 14
+
+KH2 Missions
+
+Star (KH2) - 41
+
+Days Songs
+
+6 Songs
+
+Days Items
+
+Potion (Days) - 2
+Mega-Potion (Days) - 2
 Summoning Star (Days) - 2
+
+Days Missions
+
+Star (Days) - 6
+
+BBS Songs
+
+26 Songs
+
+BBS Items
+
+Potion (BBS) - 9
+Mega-Potion (BBS) - 8
 Summoning Star (BBS) - 9
+
+BBS Missions
+
+Star (BBS) - 26
+
+Coded Songs
+
+2 Songs
+
+Coded Items
+
+Potion (Re:coded) - 1
+Mega-Potion (Re:coded) - 1
+
+Coded Missions
+
+Star (Re:coded) - 2
+
+KH3D Songs
+
+17 Songs
+
+KH3D Items
+
+Potion (KH3D) - 6
+Mega-Potion (KH3D) - 6
 Summoning Star (KH3D) - 5
+
+KH3D Missions
+
+Star (3D) - 17
+
+AFP Songs
+
+1 Song
+
+AFP Items
+
+Mega-Potion (AFP) - 1
+
+AFP Missions
+
+Star (0.2) - 1
+
+KH3 Songs
+
+11 Songs
+
+KH3 Items
+
+Potion (KH3) - 3
+Mega-Potion (KH3) - 4
 Summoning Star (KH3) - 4
+
+KH3 Missions
+
+Star (KH3) - 11
+
+Misc Songs
+
+8 Songs
+
+Misc Items
+
+Potion (Misc.) - 3
+Mega-Potion (Misc.) - 2
 Summoning Star (Misc.) - 3
+
+Misc Missions
+
+Star (Misc.) - 8
