@@ -1,0 +1,293 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Manual_MelodyOfMemory_BigBirdRito Template
+
+game: Manual_MelodyOfMemory_BigBirdRito
+requires:
+  version: 0.6.2 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_MelodyOfMemory_BigBirdRito:
+  # Game Options
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  plando_items:
+    # Generic items plando.
+    []
+
+  goal:
+    # How many stars should you be required to collect?
+    melody of memory's end [0 stars]: 50
+    melody of memory's end [5 stars]: 0
+    melody of memory's end [10 stars]: 0
+    melody of memory's end [15 stars]: 0
+    melody of memory's end [20 stars]: 0
+    melody of memory's end [25 stars]: 0
+    melody of memory's end [30 stars]: 0
+    melody of memory's end [35 stars]: 0
+    melody of memory's end [40 stars]: 0
+    melody of memory's end [45 stars]: 0
+    melody of memory's end [50 stars]: 0
+    melody of memory's end [55 stars]: 0
+    melody of memory's end [60 stars]: 0
+    melody of memory's end [65 stars]: 0
+    melody of memory's end [70 stars]: 0
+    melody of memory's end [75 stars]: 0
+    melody of memory's end [80 stars]: 0
+    melody of memory's end [85 stars]: 0
+    melody of memory's end [90 stars]: 0
+    melody of memory's end [95 stars]: 0
+    melody of memory's end [100 stars]: 0
+    melody of memory's end [105 stars]: 0
+    melody of memory's end [110 stars]: 0
+    melody of memory's end [115 stars]: 0
+    melody of memory's end [120 stars]: 0
+    melody of memory's end [125 stars]: 0
+    melody of memory's end [130 stars]: 0
+    melody of memory's end [135 stars]: 0
+    melody of memory's end [140 stars]: 0
+    melody of memory's end [145 stars]: 0
+    melody of memory's end [150 stars]: 0
+
+  death_link:
+    # When you lose a song you send a Death Link! When you recieve a Death Link you'll need to restart your current song from the beginning!
+    'false': 50
+    'true': 0
+
+  kh1_songs:
+    # 33 Songs
+    'false': 0
+    'true': 50
+
+  kh1_items:
+    # Potion (KH1) - 11, Mega-Potion (KH1) - 11, Summoning Star (KH1) - 11
+    'false': 0
+    'true': 50
+
+  kh1_missions:
+    # Star (KH1) - 33
+    'false': 0
+    'true': 50
+
+  com_songs:
+    # 5 Songs
+    'false': 0
+    'true': 50
+
+  com_items:
+    # Potion (Re:CoM) - 2, Mega-Potion (Re:CoM) - 1, Summoning Star (Re:CoM) - 2
+    'false': 0
+    'true': 50
+
+  com_missions:
+    # Star (Re:CoM) - 5
+    'false': 0
+    'true': 50
+
+  kh2_songs:
+    # 41 Songs
+    'false': 0
+    'true': 50
+
+  kh2_items:
+    # Potion (KH2) - 13, Mega-Potion (KH2) - 14, Summoning Star (KH2) - 14
+    'false': 0
+    'true': 50
+
+  kh2_missions:
+    # Star (KH2) - 41
+    'false': 0
+    'true': 50
+
+  days_songs:
+    # 6 Songs
+    'false': 0
+    'true': 50
+
+  days_items:
+    # Potion (Days) - 2, Mega-Potion (Days) - 2, Summoning Star (Days) - 2
+    'false': 0
+    'true': 50
+
+  days_missions:
+    # Star (Days) - 6
+    'false': 0
+    'true': 50
+
+  bbs_songs:
+    # 26 Songs
+    'false': 0
+    'true': 50
+
+  bbs_items:
+    # Potion (BBS) - 9, Mega-Potion (BBS) - 8, Summoning Star (BBS) - 9
+    'false': 0
+    'true': 50
+
+  bbs_missions:
+    # Star (BBS) - 26
+    'false': 0
+    'true': 50
+
+  coded_songs:
+    # 2 Songs
+    'false': 0
+    'true': 50
+
+  coded_items:
+    # Potion (Re:coded) - 1, Mega-Potion (Re:coded) - 1
+    'false': 0
+    'true': 50
+
+  coded_missions:
+    # Star (Re:coded) - 2
+    'false': 0
+    'true': 50
+
+  kh3d_songs:
+    # 17 Songs
+    'false': 0
+    'true': 50
+
+  kh3d_items:
+    # Potion (KH3D) - 6, Mega-Potion (KH3D) - 6, Summoning Star (KH3D) - 5
+    'false': 0
+    'true': 50
+
+  kh3d_missions:
+    # Star (3D) - 17
+    'false': 0
+    'true': 50
+
+  afp_songs:
+    # 1 Song
+    'false': 0
+    'true': 50
+
+  afp_items:
+    # Mega-Potion (AFP) - 1
+    'false': 0
+    'true': 50
+
+  afp_missions:
+    # Star (0.2) - 1
+    'false': 0
+    'true': 50
+
+  kh3_songs:
+    # 11 Songs
+    'false': 0
+    'true': 50
+
+  kh3_items:
+    # Potion (KH3) - 3, Mega-Potion (KH3) - 4, Summoning Star (KH3) - 4
+    'false': 0
+    'true': 50
+
+  kh3_missions:
+    # Star (KH3) - 11
+    'false': 0
+    'true': 50
+
+  misc_songs:
+    # 8 Songs
+    'false': 0
+    'true': 50
+
+  misc_items:
+    # Potion (Misc.) - 3, Mega-Potion (Misc.) - 2, Summoning Star (Misc.) - 3
+    'false': 0
+    'true': 50
+
+  misc_missions:
+    # Star (Misc.) - 8
+    'false': 0
+    'true': 50
+
+  # Item & Location Options
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_inventory_from_pool:
+    # Start with these items and don't place them in the world.
+    # 
+    # The game decides what the replacement items will be.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
