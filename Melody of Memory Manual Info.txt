@@ -4,7 +4,7 @@ For this game your goal is to collect Stars! The amount required is configurable
 
 Mechanics:
 
-This manual is intended to be used with the save file provided in the GitHub repo! All 150 songs are unlocked, the Collector's Bonuses are nearly maxed out, and there are plenty of items for you to use so no grinding is needed! If you have your own save file that you're confident will work feel free to use that instead!
+This manual is intended to be used with a save file that has all 150 songs unlocked! High-level Teams, Maxed out Collector's Bonuses, and plenty of Potions, Mega-Potions, & Summoning Stars will be a huge boon to you but are not required!
 
 Each song has three locations tied to it! One location for the song, another for an item, and the final for a star! If you don't want songs to be locked, then you can get rid of those items/locations! If you don't want items to be limited, you can get rid of those too! And as mentioned previously the same goes for Stars as well!
 
